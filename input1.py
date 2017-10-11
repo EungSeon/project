@@ -16,7 +16,6 @@ def controller_led(LED, signal_LED):
     GPIO.output(LED, GPIO.LOW)
 
     time = end_time - start_time
-
     return time
 
 
