@@ -22,4 +22,3 @@ process.collectdata()
 import output
 
 output.analysis()
-

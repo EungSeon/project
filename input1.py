@@ -44,7 +44,6 @@ def controller_fan(FAN, signal_FAN, PWMA):
     GPIO.output(FAN, GPIO.LOW)
 
     time = end_time - start_time
-
     return time
 
 # 다른 디바이스 - 아직 미정
